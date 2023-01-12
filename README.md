@@ -118,3 +118,7 @@ sudo docker build -t ckan/solr:0.1 $(for i in `cat build.args`; do out+="--build
 # Run docker-compose
 
 use this [file](/docker-compose.yml) for `docker-compose.yml`
+
+```
+sudo docker-compose up
+```
